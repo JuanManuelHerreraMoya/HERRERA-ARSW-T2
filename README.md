@@ -65,12 +65,12 @@ La arquitectura debe tener las siguientes características.
 ------------------------------    
 Diagrama Componentes
 
-![](images/componentes.jpeg)
+![](images/componentes.jpg)
 
 ------------------------------ 
 Diagrama despliege
 
-![](images/despliege.jpeg)
+![](images/despliege.jpg)
     
 ------------------------------     
 ## Ayuda

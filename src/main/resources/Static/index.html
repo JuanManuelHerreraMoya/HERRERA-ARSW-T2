@@ -33,11 +33,10 @@
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=ESCRIBE_AQUI_TU_API_KEY&callback=initMap">
-    </script>
-    <script type="text/javascript" src="js/app.js"></script>
+
     <script type="text/javascript" src="js/apiCliente.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
 </head>
 <body>
 <h1 style="margin-left: 30px">Clima Mundo</h1>
@@ -48,11 +47,20 @@
         <div class="input-group" style="margin-left: 15px">
             <input type="text" class="form-control" id="ciudad" placeholder="Ciudad"/>
             <span class="input-group-btn">
-                            <button type="button" class="btn btn-success" onclick= app.getDatos(document.getElementById("ciudad").value) > Obtener</button>
+                            <button type="button" class="btn btn-success" onclick= app.createFunction(document.getElementById("ciudad").value) > Obtener</button>
                 </span>
         </div>
         <br></br>
         <h2 style="margin-left: 30px"> Clima </h2>
+        <table id="t01" class="table ">
+            <tr>
+                <th>weather</th>
+                <th>tempMax</th>
+                <th>tempMin</th>
+                <th>Cloud</th>
+            </tr>
+        </table>
+
 
     </div>
     <div class="col-lg-15">

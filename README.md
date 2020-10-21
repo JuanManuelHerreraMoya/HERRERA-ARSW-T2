@@ -67,6 +67,7 @@ La arquitectura debe tener las siguientes características.
     ![](images/componentes.png)
     
     
+    
     ![](images/despliege.png)
     
     
